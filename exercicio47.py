@@ -8,3 +8,5 @@ for a in range(1,qtd_aluno+1):
         media+=n
     media/=qtd_nota
     print(f'A média do {a}º foi de {media:.2f}')
+
+
