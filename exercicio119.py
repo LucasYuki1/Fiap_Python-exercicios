@@ -15,9 +15,10 @@ def vogais(palavra:str) -> int:
         i += g.count("I")
         o += g.count("O")
         u += g.count("U")
-        
+
     dicionario = {'a' : a, 'e' : e , 'i': i, 'o':o,'u':u}
     return print(dicionario)
 
 frase = input(f'Digite sua frase e será retornado a quantidade de vogais existentes nela: ')
 vogais(frase)
+
